@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Cabecalho */
+.cabecalho{
+    width: calc(100% - 300px);
+    margin-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.cabecalho .logo{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .logo img{
+    width: 200px;
+    margin-top: 40px;
+}
+
+.cabecalho .logo p{
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+/* Menu */
+.cabecalho .menu{
+    
+
+}
+
+.cabecalho .menu button{
+    width: 115px;
+    height: 50px;
+    background: #E8F1FF;
+    border-radius: 12px;
+    border: none;
+    color: #2378FF;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+/* Botão */
+.cabecalho .botao{
+    width: 125px;
+    height: 50px;
+    background: #E8F1FF;
+    border-radius: 12px;
+    border: none;
+    color: #2378FF;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.endereco{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: auto;
+    width: 60%;
+}
+
+.textomapa{
+    margin-top: 20px;
+    padding-left: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 540px;
+    left: 130px;
+}
